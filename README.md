@@ -146,6 +146,7 @@ Flyways have some problems with the latest PostgresSQL Database, so you need to 
 <dependency>
      <groupId>org.flywaydb</groupId>
      <artifactId>flyway-database-postgresql</artifactId>
+     <version>11.2.0</version>
 </dependency>
 ```
 
@@ -155,7 +156,7 @@ Flyways have some problems with the latest PostgresSQL Database, so you need to 
 <dependency>
      <groupId>org.flywaydb</groupId>
      <artifactId>flyway-core</artifactId>
-     <version>10.15.2</version>
+     <version>11.2.0</version>
 </dependency>
 ```
 **Flyway not running because no schema history table detected**
